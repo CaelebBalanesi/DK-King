@@ -1,0 +1,13 @@
+<div class="container">
+    @if (winner_selected == "") {
+        <div class="winner-buttons">
+            <button (click)="select_winner('jen')">Jen</button>
+            <button (click)="select_winner('cal')">Cal</button>
+        </div>
+    } @else {
+        <div class="scoreline-buttons">
+            <button (click)="select_scoreline(1)">2-1</button>
+            <button (click)="select_scoreline(0)">2-0</button>
+        </div>
+    }
+</div>

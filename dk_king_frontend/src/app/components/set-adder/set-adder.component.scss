@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 24px);
+    margin: 12px;
+}
+
+.winner-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.scoreline-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button{
+    background-color: #fcf5cb;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}

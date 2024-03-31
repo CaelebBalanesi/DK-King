@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="header">
+        <img class="dking-icon" src="/assets/DonkeyKongIcon.png" alt="DK King">
+        <h1 class="title">DK King</h1>
+    </div>
+    <div clas="body">
+        <app-set-tally></app-set-tally>
+        <div class="winners">
+            @for (set of sets; track $index) {
+                <app-set-result [set]="set"></app-set-result>
+            }
+        </div>
+        <app-set-adder></app-set-adder>
+    </div>
+</div>

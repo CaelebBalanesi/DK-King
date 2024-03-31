@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 24px);
+    margin: 12px;
+    border: 1px solid black;
+}
+
+.score{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.name{
+    font-size: 24px;
+}
+
+.score{
+    font-size: 20px;
+}
