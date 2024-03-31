@@ -1,0 +1,44 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+/node_modules
+# Compiled output
+dk_king_frontend/dist
+dk_king_frontend/out-tsc
+dk_king_frontend/tmp
+dk_king_frontend/bazel-out
+
+# Node
+dk_king_frontend/node_modules
+dk_king_frontend/npm-debug.log
+dk_king_frontend/yarn-error.log
+
+# IDEs and editors
+dk_king_frontend/.idea/
+dk_king_frontend/.project
+dk_king_frontend/.classpath
+dk_king_frontend/.c9/
+dk_king_frontend/*.launch
+dk_king_frontend/.settings/
+dk_king_frontend/*.sublime-workspace
+
+# Visual Studio Code
+dk_king_frontend/.vscode/*
+dk_king_frontend/!.vscode/settings.json
+dk_king_frontend/!.vscode/tasks.json
+dk_king_frontend/!.vscode/launch.json
+dk_king_frontend/!.vscode/extensions.json
+dk_king_frontend/.history/*
+
+# Miscellaneous
+dk_king_frontend/.angular/cache
+dk_king_frontend/.sass-cache/
+dk_king_frontend/connect.lock
+dk_king_frontend/coverage
+dk_king_frontend/libpeerconnection.log
+dk_king_frontend/testem.log
+dk_king_frontend/typings
+
+# System files
+dk_king_frontend/.DS_Store
+dk_king_frontend/Thumbs.db
+
+dk_king_server/target
